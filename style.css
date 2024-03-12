@@ -14,20 +14,20 @@ body {
     color: white; /* Mantener los números del reloj en blanco */
     background-color: black;
     border: 5px solid #ffd1dc; /* Color del borde pastel (rosa claro) */
-    animation: colorChange 0.5s infinite alternate;
+    animation: colorChange 1s infinite alternate;
 }
 
 @keyframes colorChange {
     0% {
-        border-color: #ff9f80; /* Cambiar el color del borde a pastel naranja claro */
+        border-color: purple; /* Cambiar el color del borde a pastel naranja claro */
     }
     33.33% {
-        border-color: #a0e7e5; /* Cambiar el color del borde a pastel azul verdoso */
+        border-color: white; /* Cambiar el color del borde a pastel azul verdoso */
     }
     66.66% {
-        border-color: #ffc3a0; /* Cambiar el color del borde a pastel melocotón */
+        border-color: purple; /* Cambiar el color del borde a pastel melocotón */
     }
     100% {
-        border-color: #ff9f80; /* Volver al color inicial del borde */
+        border-color: white; /* Volver al color inicial del borde */
     }
 }
