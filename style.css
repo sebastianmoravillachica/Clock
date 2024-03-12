@@ -14,7 +14,7 @@ body {
     color: white; /* Mantener los números del reloj en blanco */
     background-color: black;
     border: 5px solid #ffd1dc; /* Color del borde pastel (rosa claro) */
-    animation: colorChange 2s infinite alternate;
+    animation: colorChange 0.5s infinite alternate;
 }
 
 @keyframes colorChange {
